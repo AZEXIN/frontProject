@@ -1,7 +1,8 @@
 <template>
   <div class="about">
+    
         <img  src="../assets/logo.png"/>
-        
+       <p>联系我们</p>
         <HelloWord></HelloWord>
   </div>
 

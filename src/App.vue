@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+   
     <div class="nav">
-        <router-link to="/home"> Home</router-link> 
-        <router-link to="/about">About</router-link>
+        <router-link to="/home"><span ></span> Home</router-link> 
+        <router-link to="/about"><span class="marginLeft20">About</span></router-link>
     </div>
+    
     <router-view/>
 
   </div>
@@ -28,4 +29,8 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+.marginLeft20{
+  margin-left: 20px;
+}
+
 </style>
